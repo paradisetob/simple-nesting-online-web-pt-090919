@@ -16,11 +16,11 @@ def hopper
         }
      }
 
-
+programmer_hash [:grace_hopper]
 end
 
 def alan_kay_is_known_for
-  programmer_hash["alan_kay"][:known_for]
+  programmer_hash ["alan_kay"][:known_for]
 
 	programmer_hash =
  		{
@@ -97,7 +97,7 @@ def changing_alan
         }
      }
      programmer_hash["alan kay"][:known_for] << "GUI"
-    
+
      alans_new_info = "GUI"
 
 
