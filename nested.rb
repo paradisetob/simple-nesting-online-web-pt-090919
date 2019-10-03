@@ -60,7 +60,8 @@ end
 
 def adding_matz
 programmer_hash << ["yukihiro_matsumoto"]
-
+puts programmer_hash
+end
 
 	programmer_hash =
  		{
@@ -121,7 +122,7 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-		 adding_to_dennis =[:dennis_ritchie][:languages].include?["Assembly"]
-		 puts adding_to_dennis
+		 programmer_hash =[:dennis_ritchie][:languages]<<.include?["Assembly"]
+		 puts programmer_hash
 
 end
