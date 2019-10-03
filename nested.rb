@@ -105,6 +105,7 @@ def changing_alan
 end
 
 def adding_to_dennis
+	adding_to_dennis[:dennis_ritchie][:languages].include?["Assembly"]
 	programmer_hash =
  		{
         :grace_hopper => {
