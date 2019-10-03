@@ -98,14 +98,14 @@ def changing_alan
         }
      }
     programmer_hash=["alan kay"][:known_for] << "GUI"
-
+puts programmer_hash
      alans_new_info = "GUI"
 
 
 end
 
 def adding_to_dennis
-	adding_to_dennis[:dennis_ritchie][:languages].include?["Assembly"]
+
 	programmer_hash =
  		{
         :grace_hopper => {
@@ -121,5 +121,7 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
+		 adding_to_dennis =[:dennis_ritchie][:languages].include?["Assembly"]
+		 puts programmer_hash
 
 end
