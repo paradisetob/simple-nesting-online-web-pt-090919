@@ -97,7 +97,7 @@ def changing_alan
           :languages => ["C"]
         }
      }
-     programmer_hash[changing_alan]["alan kay"][:known_for] << "GUI"
+     [changing_alan]["alan kay"][:known_for] << "GUI"
 
      alans_new_info = "GUI"
 
