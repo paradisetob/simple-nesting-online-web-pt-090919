@@ -97,7 +97,7 @@ def changing_alan
           :languages => ["C"]
         }
      }
-     [changing_alan]["alan kay"][:known_for] << "GUI"
+     changing_alan=["alan kay"][:known_for] << "GUI"
 
      alans_new_info = "GUI"
 
