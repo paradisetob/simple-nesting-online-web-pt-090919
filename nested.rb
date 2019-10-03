@@ -59,7 +59,7 @@ def dennis_ritchies_language
 end
 
 def adding_matz
-programmer_hash << ["yukihiro_matsumoto"] 
+programmer_hash << ["yukihiro_matsumoto"]
 
 
 	programmer_hash =
@@ -97,7 +97,7 @@ def changing_alan
           :languages => ["C"]
         }
      }
-     programmer_hash["alan kay"][:known_for] << "GUI"
+     programmer_hash[changing_alan]["alan kay"][:known_for] << "GUI"
 
      alans_new_info = "GUI"
 
